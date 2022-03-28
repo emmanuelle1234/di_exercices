@@ -1,0 +1,87 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	
+
+}
+header{
+	background-color: black;
+	height: 90px;
+	position: relative;
+}
+
+
+img{
+	width: 70px;
+	padding: 10px;
+}
+nav{
+	position: absolute;
+	top: calc(50% - 15px);
+	width: calc(100% - 90px);
+	display: inline-block;
+}
+
+span{
+	margin-right: 30px;
+	color: white;
+	font-family:'Montserrat', sans-serif;	
+	font-size: 30px;
+	float: right;
+}
+
+main{
+	background-image: url(./assets/Books.jpg);
+	height: 100%;
+	background-size:cover;
+	background-repeat: no-repeat;
+	position: relative;
+	
+}
+
+h1{
+	font-family:'Bebas Neue', sans-serif;
+	margin: 0 ;	
+	font-size: 140px;
+	font-weight: 600;
+	padding-left: 30px;
+	position: absolute;
+	top: 180px;
+
+}
+
+main p{
+	color: white;
+	font-family:'Montserrat', sans-serif;	
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 40px;
+	width: 45%;
+	padding-left: 30px;
+	position: absolute;
+	bottom: 0%;
+}
+
+footer{
+background-color: black;
+height: 80px;
+
+}
+
+.pfooter{
+	font-family:'Montserrat', sans-serif;	
+	font-size: 14px;
+	color: white;
+	line-height: 80px;
+	text-align: center;
+	margin: 0;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:visited{
+	color: pink;
+}

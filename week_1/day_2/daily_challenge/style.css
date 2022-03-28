@@ -1,0 +1,88 @@
+header{
+background-color: black;
+font-family:'Montserrat', sans-serif;	
+font-size: 30px;
+font-weight: 300;
+color: white;
+height: 80px;
+display: flex;
+justify-content: flex-start;
+
+}
+#logo{
+idth: 50%;
+padding-left: 30px;
+padding-top: 20px;
+	}
+nav{
+width: 40%;
+padding: 20px;
+margin-left: 40%;
+}
+ul {
+display: flex;
+flex-direction:row ;
+list-style-type: none;
+justify-content: space-between;
+margin-left: 10px;
+margin: 0;
+padding: 0;
+}
+li{
+display: flex;	
+padding-left: 10px;
+
+}
+
+main{
+background-image: url(https://imgsrc.cineserie.com/2019/11/avengers-endgame-le-scenariste-a-un-regret-sur-la-mort-de-ce-personnage.jpg?ver=1);
+height: 900px;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+h1{
+font-family:'Bebas Neue', sans-serif;
+margin: 0 0;	
+font-size: 140px;
+font-weight: 600;
+display: flex;
+padding-left: 30px;
+}
+
+main p{
+color: white;
+font-family:'Montserrat', sans-serif;	
+font-size: 17px;
+font-weight: 300;
+width: 45%;
+display: flex;
+padding-left: 30px;
+margin-bottom: 5%;
+}
+
+footer{
+background-color: black;
+font-family:'Montserrat', sans-serif;	
+font-size: 14px;
+font-weight: 300;
+color: white;
+height: 80px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.pfooter{
+text-align:center;
+}
+
+a:link{
+	color: pink;
+}
+a:visited{
+	color: hotpink;
+}

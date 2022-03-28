@@ -1,0 +1,40 @@
+body {
+}
+
+.container {
+border: 1px solid darkgrey;
+width:875px;
+height: 875px;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+
+}
+.line {
+display: flex;
+justify-content: space-between;
+margin: 0 5px 0 5px 0;
+}
+
+.cube1 {
+	background-color:  #0077B6;
+	width: 50px;
+	height: 50px;
+}
+
+.cube2 {
+	background-color:  #00B4D8;
+	width: 50px;
+	height: 50px;
+
+}
+
+
+.cube3 {
+	background-color:  #023E9A;
+	width: 50px;
+	height: 50px;
+
+}

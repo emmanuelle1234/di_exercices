@@ -1,0 +1,38 @@
+body {
+}
+
+.container {
+border: 1px solid lightgrey;
+width: 1200px;
+height: 450px;
+display: flex;
+justify-content: space-between;
+margin: auto;
+
+}
+.verticalLeft {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.horizontal {
+display: flex;
+width: calc(100% - 200px);
+justify-content: space-evenly;	
+align-items: center;
+margin :0 10% 0 10%;
+}
+
+.verticalRight {
+display: flex;
+flex-direction: column;
+justify-content: space-between;	
+}
+
+.box {
+background-color: yellow;
+border : 2px solid black;
+height: 100px;
+width: 100px;
+}

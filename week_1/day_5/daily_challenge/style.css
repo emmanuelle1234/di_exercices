@@ -1,0 +1,222 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: black;
+	height: 80px;
+}
+
+#logo {
+	Width: 15%;
+	padding-left: 30px;
+	padding-top: 20px;
+	margin-right: 0;
+}
+
+nav {
+	float: right;
+	position: relative;
+	top: -63.5px;
+}
+
+span {
+	display: inline-block;
+	margin: 0 3% 0 0;
+	padding: 0;
+	font-family:'Montserrat', sans-serif;
+	line-height: 80px;
+	margin:  0 20px 0 0;
+	color: white;
+	font-size: 30px;
+	font-weight: 300;
+}
+
+main {
+	background-image: url(https://imgsrc.cineserie.com/2019/11/avengers-endgame-le-scenariste-a-un-regret-sur-la-mort-de-ce-personnage.jpg?ver=1);
+	/*height: 900px;*/
+	height: calc(100vh - 160px);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	color: white;
+	margin: 0 0 0 0;
+	
+}
+
+h1 {
+	font-family:'Bebas Neue', sans-serif;
+	margin: 0 0;	
+	font-size: 140px;
+	font-weight: 600;
+	padding-top: 15vh;
+	padding-left: 30px;
+}
+
+main p{
+	color: white;
+	font-family:'Montserrat', sans-serif;	
+	font-size: 20px;
+	font-weight: 300;
+	width: 45%;
+	padding-left: 30px;
+	position: absolute;
+	bottom : 5%;
+}
+
+footer{
+	background-color: black;
+
+}
+
+.pfooter{
+	font-family:'Montserrat', sans-serif;	
+	font-size: 14px;
+	line-height: 80px;
+	font-weight: 300;
+	color: white;
+	text-align:center;
+	width: 100%;
+	margin: 0px;
+}
+
+a:link{
+	color: pink;
+}
+a:visited{
+	color: hotpink;
+}
+
+
+
+@media screen and (max-width: 480px) {
+	span {
+		display: inline-block;
+		margin: 0 3% 0 0;
+		padding: 0;
+		font-family:'Montserrat', sans-serif;	
+		font-size: 10px;
+		font-weight: 300;
+		color: white;
+		margin: 0 20px 0 0;
+		line-height: 80px;
+	}
+	h1{
+		font-family:'Bebas Neue', sans-serif;
+		margin: 0 0;	
+		font-size: 120px;
+		font-weight: 600;
+		padding-top: 0px;
+		padding-left: 30px;
+		color: yellow;
+	}
+	
+	main p{
+		color: white;
+		font-family:'Montserrat', sans-serif;	
+		font-size: 14px;
+		font-weight: 300;
+		width: 75%;
+		padding-left: 30px;
+		position: absolute;
+		bottom : 2vh;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+	h1{
+		font-family:'Bebas Neue', sans-serif;
+		margin: 0 0;	
+		font-size: 130px;
+		font-weight: 600;
+		padding-top: 0px;
+		padding-left: 30px;
+		color: red;
+
+	}
+	main p{
+	color: white;
+	font-family:'Montserrat', sans-serif;	
+	font-size: 15px;
+	font-weight: 300;
+	width: 80%;
+	padding-left: 30px;
+	position: absolute;
+	bottom : 1%;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 960px) {
+	main{
+		background-image: url(https://imgsrc.cineserie.com/2019/11/avengers-endgame-le-scenariste-a-un-regret-sur-la-mort-de-ce-personnage.jpg?ver=1);
+		/*height: 900px;*/
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: relative;
+		font-size: 30px;
+		font-weight: 300;
+		color: white;
+		margin: 0 0 0 0;
+		line-height: 30px;
+	}
+	h1 {
+		color: yellowgreen;
+		font-family:'Bebas Neue', sans-serif;
+		margin: 0 0;	
+		font-size: 140px;
+		font-weight: 600;
+		padding-top: 10vh;
+		padding-left: 30px;
+	}
+	main p{
+	color: white;
+	font-family:'Montserrat', sans-serif;	
+	font-size: 20px;
+	font-weight: 300;
+	width: 65%;
+	padding-left: 30px;
+	position: absolute;
+	bottom : 1%;
+}
+}
+
+@media screen and (min-width: 961px) and (max-width: 1023px) {
+	h1{
+		color: hotpink;
+		font-family:'Bebas Neue', sans-serif;
+		margin: 0 0;	
+		font-size: 140px;
+		font-weight: 600;
+		padding-top: 0px;
+		padding-left: 30px;
+
+	}
+	main p{
+	color: white;
+	font-family:'Montserrat', sans-serif;	
+	font-size: 18px;
+	font-weight: 300;
+	width: 60%;
+	padding-left: 30px;
+	position: absolute;
+	bottom : 5%;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+	h1{
+		color: darkgrey;
+		font-family:'Bebas Neue', sans-serif;
+		margin: 0 0;	
+		font-size: 120px;
+		font-weight: 600;
+		padding-top: 20px;
+		padding-left: 30px;
+
+
+	}
+}
+@media screen and (min-width: 1281px) {
+	
+}
+
+

@@ -1,0 +1,179 @@
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.box{
+	margin: 15px;
+	width: 350px;
+	height: 300px;
+	background-color:lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+P{
+	font-size: xx-large;
+	font-weight: bold;
+	color: blueviolet;
+}
+
+/*CSS Animation 1 FADE IN*/
+.fade
+{
+        opacity:1;
+}
+
+.fade:hover
+{
+        opacity:0.5;
+}
+
+/*CSS Animation 2 : CHANGE COLOR*/
+.color1:hover
+{
+        background: royalblue;
+}
+.color2:hover
+{
+        background: white;
+}
+.color3:hover
+{
+        background: yellowgreen;
+}
+
+/*CSS Animation 3 : GROW & SHRINK*/
+.grow:hover
+{
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+}
+
+.shrink:hover
+{
+        -webkit-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        transform: scale(0.7);
+}
+
+/*CSS Animation 4 : ROTATE*/
+.rotate1:hover
+{
+        -webkit-transform: rotateZ(-40deg);
+        -ms-transform: rotateZ(-40deg);
+        transform: rotateZ(-40deg);
+}
+.rotate2:hover
+{
+        -webkit-transform: rotateZ(40deg);
+        -ms-transform: rotateZ(40deg);
+        transform: rotateZ(40deg);
+}
+
+/*CSS Animation 5 : SQUARE TO CIRCLE*/
+.circle:hover
+{
+        border-radius:50%;
+}
+
+/*CSS Animation 6 : 3D SHADOW*/
+.threed:hover
+{
+        box-shadow:
+                1px 1px #53a7ea,
+                2px 2px #53a7ea,
+                3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+/*CSS Animation 7 : SWING*/
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+.swing:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
+/*CSS Animation 8 : INSET BORDER*/
+
+.border:hover
+{
+        box-shadow: inset 0 0 0 10px #53a7ea;
+}
