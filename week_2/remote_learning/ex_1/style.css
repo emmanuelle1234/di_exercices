@@ -2,9 +2,7 @@
   --lightblue: #F6F9FC;
   --red: #d64041;
 }
-body {
-  height: 100vh;
-}
+
 a,
 a:hover {
   color: inherit;
