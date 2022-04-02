@@ -17,7 +17,7 @@ function bodyMassIndex (m, h) {
 };
 Person1.BMI=bodyMassIndex(Person1.Mass, Person1.Height).toFixed(2);
 Person2.BMI=bodyMassIndex(Person2.Mass, Person2.Height).toFixed(2);
-console.log(Person2);
+//console.log(Person2);
 
 function bodyMassIndexComparator (index1, index2) {
 	let largest ="";
