@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc9da332-72d3-4150-91c9-dea43a560e65" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../week_3/day_2/ex_1_mandatory/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_3/day_2/ex_1_mandatory/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_3/learning_loops/daily_challenge_gold/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_3/learning_loops/daily_challenge_gold/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_3/learning_loops/daily_challenge_gold_ex/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_3/learning_loops/daily_challenge_gold_ex/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_3/learning_loops/ex_1_mandatory/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_3/learning_loops/ex_1_mandatory/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_2/day_2  exercise_ninja/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day_2/day_2  exercise_ninja/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day_3/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_4/exercise_ninja/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../day_4/exercise_ninja/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_4/main.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28X2BHpYuAhJzmc4KufH7Ofk0Vs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="day_6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc9da332-72d3-4150-91c9-dea43a560e65" name="Changes" comment="" />
+      <created>1651348472642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651348472642</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
