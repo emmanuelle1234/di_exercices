@@ -7,6 +7,7 @@ def create_canva() :
                 row.append('_')
 
 
+
 create_canva()
 
 
