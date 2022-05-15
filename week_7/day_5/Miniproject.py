@@ -17,10 +17,23 @@ def display_board(board):
         print(f'*  {"-" * 3}|{"-" * 3}|{"-" * 3}  *')
     print(f'*{" " * 3}{board[2][0]} | {board[2][1]} |  {board[2][2]}  *')
     print('*' * 17)
+         
+# to create new borad, which a fixed size we can simplify the display by:
+# board = {'7': ' ' , '8': ' ' , '9': ' ' ,
+#             '4': ' ' , '5': ' ' , '6': ' ' ,
+#             '1': ' ' , '2': ' ' , '3': ' ' }
 
+# def get_new_board():
+#     print(board['7'] + '|' + board['8'] + '|' + board['9'])
+#     print('-+-+-')
+#     print(board['4'] + '|' + board['5'] + '|' + board['6'])
+#     print('-+-+-')
+#     print(board['1'] + '|' + board['2'] + '|' + board['3'])
+
+# then to work with dict it's much more easier than list of list but what you did also it's ok
 
 def start_the_game():
-    print('Let\'s start the famous Tic Tac Toe game. Two players are needed.')
+    print('Let\'s start the famous Tic Tac Toe game. Two players are needed.') # at this case you can also create string with " then there is no need to \'s
     players[0]['username'] = input('Dear first player, please input your username: ')
     players[1]['username'] = input('Dear second player, please input your username: ')
     print('Let\'s see who is starting.')
