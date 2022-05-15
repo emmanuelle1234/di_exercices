@@ -4,7 +4,7 @@ num1 = int(input('Please enter a first number: '))
 num2 = int(input('Please enter a second number: '))
 
 
-def division(num1, num2):
+def division(num1, num2): # at this case num1 ans num2 are at the global scope and we can access to them from the fucntion so it's redundant to send them again
     try:
         division_result = num1 / num2
         print(f'{num1} / {num2} = {division_result}')
