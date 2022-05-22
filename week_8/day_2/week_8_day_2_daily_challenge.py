@@ -8,7 +8,7 @@ class Farm:
 
     def add_animal(self, animal, number=1):
         item = {animal: number}
-        if animal not in self.animals.keys():
+        if animal not in self.animals.keys(): # here we can do just animal not in self.animals
             self.animals.update(item)
         else:
             self.animals[animal] += number
@@ -19,7 +19,7 @@ class Farm:
         for key, value in self.animals.items():
             print(f'{key} : {value}')
         print('')
-        print('   E-I-E-I-O!')
+        print('   E-I-E-I-O!') # rather than spaces you can create tab by \t
         return ""
 
 
