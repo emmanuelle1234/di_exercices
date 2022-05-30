@@ -10,7 +10,7 @@ class Currency:
         return f"{self.value} {self.name}s"
 
     def __int__(self):
-        print(self.value)
+        print(self.value) # this prints are redundant I think you added them for testing
         return self.value
 
     def __repr__(self):
@@ -20,9 +20,9 @@ class Currency:
     def __add__(self, c_value):
         if type(c_value) in (int, float):
             result = self.value + c_value
-            return result
+            return result # # can be in one line
         elif isinstance(c_value, Currency) and c_value.name == self.name:
-            result = self.value + c_value.value
+            result = self.value + c_value.value # can be in one line
             return result
         elif isinstance(c_value, Currency) and c_value.name != self.name:
             raise TypeError(f'Cannot add between Currency type {self.name} and {c_value.name}')
@@ -34,10 +34,10 @@ class Currency:
     def __iadd__(self, c_value):
         if type(c_value) in (int, float):
             self.value = self.value + c_value
-            return self.value
+            return self.value # can be in one line
         elif isinstance(c_value, Currency) and c_value.name == self.name:
             self.value = self.value + c_value.value
-            return self.value
+            return self.value # can be in one line
         elif isinstance(c_value, Currency) and c_value.name != self.name:
             raise TypeError(f'Cannot add between Currency type {self.name} and {c_value.name}')
             #return "Cannot add two different types of currencies"
