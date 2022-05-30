@@ -10,7 +10,7 @@ class Circle:
 
     @classmethod
     def create_circle(cls, name):
-        what = input(f'Do you want to use diameter or radius to create the circle: ')
+        what = input(f'Do you want to use diameter or radius to create the circle: ') # what is not a meningful name, please make sure to use maeningful names :)
         if what == "diameter":
             diameter = int(input('Please enter the size of the diameter: '))
             radius = diameter/2
@@ -24,7 +24,7 @@ class Circle:
             raise TypeError('Please enter \'diameter\' or \'circle\' only.')
 
     def circle_area(self):
-        area = math.pi * self.radius * self.radius
+        area = math.pi * self.radius * self.radius # you can do it in just a single line by: return math.pi * self.radius * self.radius
         return area
 
     def circle_print(self):
@@ -32,11 +32,11 @@ class Circle:
                f'the radius is {self.radius} and the diameter is {self.radius *2}.'
 
     def __add__(self, other):
-        result_circle = Circle('added_circle', self.radius + other.radius)
+        result_circle = Circle('added_circle', self.radius + other.radius) # we dont want to return a new cicle we wan to add to the existing one (the self)
         print(result_circle.radius)
         return result_circle
 
-    def compare(self, other):
+    def compare(self, other): # another option to do that by reompleminging the corresponding dunder function
         if self.radius > other.radius:
             return f'This circle ({self.name}) is bigger than the other one ({other.name}).'
         elif self.radius < other.radius:
