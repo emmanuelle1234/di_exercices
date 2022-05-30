@@ -26,7 +26,7 @@ class Queue:
             self.humans[len(self.humans)-1] = person
         return self.humans
 
-    def find_in_queue(self, person):
+    def find_in_queue(self, person): # great implemintation but you can do it in just a single line: return [index for (index, item) in enumerate(self.humans) if item == person]
         person_index = [index for (index, item) in enumerate(self.humans) if item == person]
         return person_index
 
@@ -43,7 +43,7 @@ class Queue:
             self.humans.remove(self.humans[0])
             return next
         else:
-            none = Human('None', 'None', -2, False, 'blood_type')
+            none = Human('None', 'None', -2, False, 'blood_type') # the else block is redundant you can remove it then return in one line
             return none
 
     def get_next_blood_type(self, blood_type):
@@ -51,7 +51,7 @@ class Queue:
         if len(blood_indices) != 0:
             next_blood_type = self.humans[blood_indices[0]]
             return next_blood_type
-        else:
+        else:  # the else block is redundant you can remove it then return in one line
             none = Human('None', 'None', -2, False, 'blood_type')
             return none
 
