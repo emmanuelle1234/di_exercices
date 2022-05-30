@@ -64,7 +64,7 @@ class Airplane:
     def fly(self, destination):
         if not self.next_flights:
             print(f'This airplane is grounded for the time being.')
-            return None
+            return None # it's redundant, by default it will return None
         elif self.next_flights[0].destination == destination:
             print(f'This airplane is going to take off')
             self.next_flights[0].take_off()
@@ -74,17 +74,17 @@ class Airplane:
             return destination
         elif destination in [self.next_flights[i].destination for i in range(len(self.next_flights))]:
             print(f'This airplane will fly to {destination} but later on. It\'s flying now to {self.next_flights[0].destination}.')
-            return None
+            return None # it's redundant, by default it will return None
         else:
             print('Sorry but this destination is unknown in our Air Management System.')
-            return None
+            return None # it's redundant, by default it will return None
 
 
     def location_on_date(self, date: datetime.date):
         # Returns where the plane will be on this date
         if not self.next_flights:
             print(f'This airplane is grounded for the time being.')
-            return None
+            return None # it's redundant, by default it will return None
         elif date in [self.next_flights[i].date for i in range(len(self.next_flights))]:
             index = self.next_flights.index(date)
             location = self.next_flights[index].destination
@@ -92,13 +92,13 @@ class Airplane:
             return location
         else:
             print(f'This is not a correct input.')
-            return None
+            return None # it's redundant, by default it will return None
 
     def available_on_date(self, date: datetime.date, location):
         # Returns True if the plane can fly from this location on this date
         # (it can fly if it is in this location on this date and if it doesn’t already have a flight planned).
         for flight in self.next_flights:
-            if location == self.location_on_date(date):
+            if location == self.location_on_date(date): # it can be just return location == self.location_on_date(date)
                 return True
             else:
                 return False
@@ -178,3 +178,5 @@ cathay.__repr__()
 print(cathay)
 print('\n')
 plane5.fly(bg)
+
+# missing some requirments
