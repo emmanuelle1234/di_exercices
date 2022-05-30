@@ -8,7 +8,7 @@ class Building:
 
     def __init__(self, address: str):
         self.address = address
-        self.inhabitants = []
+        self.inhabitants = [] # why we need two inhabitants lists?
         self.buildings_list.append([self.address])
         self.inhabitants_list = []
 
