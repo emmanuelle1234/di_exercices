@@ -4,7 +4,7 @@ class Person:
         self.like = like
         self.hate = hate
 
-    def taste(self, food_name):
+    def taste(self, food_name): # I like that you did the return at the end, but you can improve it a little by  message += ' and loves it!'
         message = f'{self.person_name} eats the {food_name}'
         if food_name in self.like:
             message = message + ' and loves it!'
