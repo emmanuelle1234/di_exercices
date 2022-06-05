@@ -118,3 +118,27 @@ def old(age_in_s, planet):
 
 old(1000000000, 'Earth')
 
+
+# EXERCISE 9
+"""
+Install the faker module, and take a look at the documentation and learn how to properly implement faker in your code.
+Create an empty list called users. Tip: It should be a list of dictionaries.
+Create a function that adds new dictionaries to the users list. Each user has the following keys: 
+name, address, language_code. Use faker to populate them with fake data."""
+
+from faker import Faker
+users = []
+
+def add_user(num):
+    for i in range(num):
+        fake = Faker()
+        user = {
+            'name': fake.name(),
+            'address': fake.address(),
+            'language_code': fake.language_code()
+         }
+        users.append(user)
+
+
+add_user(4)
+print(users)
