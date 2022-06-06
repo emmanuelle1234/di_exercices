@@ -38,7 +38,7 @@ The sentence should include at least 2 words and not exceed 20 words.\n """)
             not_yet_answered = False
         else:
             print('This is not a valid choice.')
-            break
+            break # you can just change not_yet_answered = False
 
 
 main()
