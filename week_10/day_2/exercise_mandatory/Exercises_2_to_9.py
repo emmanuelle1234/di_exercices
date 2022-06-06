@@ -8,7 +8,7 @@ def compare_with_random(num):
         message = "Success"
         print(message)
         return message
-    else:
+    else: # the else is redundant you can remove it
         print('lost')
 
 
