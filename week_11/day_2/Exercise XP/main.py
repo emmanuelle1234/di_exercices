@@ -8,12 +8,8 @@ def homepage():
 	return render_template("homepage.html")
 
 
-@app.route('/<color>')
-def background(color):
-	return render_template("colorpage.html", color=color)
-
 
 if __name__ == '__main__':
-	app.run()
+	app.run(debug=True)
 
 

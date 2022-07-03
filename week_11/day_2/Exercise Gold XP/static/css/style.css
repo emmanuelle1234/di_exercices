@@ -1,0 +1,23 @@
+html, body {
+margin: 0 auto;
+background-color: black;
+font-family: Geneva, Verdana, sans-serif;
+}
+div {
+margin : 10%; }
+
+h1, h2, h3, p {
+color: white;
+margin: 5% auto;
+text-align: center;
+}
+
+h3 {
+color : coral;
+font-size: 30px;
+}
+
+p {
+color : chartreuse;
+font-size: 30px;
+}
