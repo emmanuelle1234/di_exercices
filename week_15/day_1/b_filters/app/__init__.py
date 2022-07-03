@@ -6,12 +6,13 @@ from app import routes, custom_filters
 
 import jinja2
 
-env = jinja2.Environment()
+#env = jinja2.Environment()
 
-#env.filters['to_upper'] = custom_filters.to_upper
-#why it does not work ?
+flask_app.jinja_env.filters['to_upper'] = custom_filters.to_upper
 
-jinja2.filters.FILTERS['to_upper'] = custom_filters.to_upper
-#why this solution viewed on internet works ?
+#solution found on stackoverflow that I don't understand
+#jinja2.filters.FILTERS['to_upper'] = custom_filters.to_upper
+
+
 
 
