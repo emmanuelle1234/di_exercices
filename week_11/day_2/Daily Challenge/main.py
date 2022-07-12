@@ -1,43 +1,25 @@
 from flask import Flask, render_template_string
 
+# https://www.digitalocean.com/community/tutorials/how-to-use-python-markdown-to-convert-markdown-text-to-html
+
+import markdown
+
 app = Flask(__name__)
 
 
 @app.route('/lesson')
 def lesson():
-    template = '''
-    <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Lesson 1</title>
-    </head>
-    <body>
-        {{markdown}}
-    </body>
-    </html>
-        '''
-    with open('./lesson1/in-this-chapter.md') as f:
+    with open('./lesson1/in-this-chapter.md', 'r') as f:
         chapter_text = f.read()
-    html = render_template_string(template, markdown=chapter_text)
+        html = markdown.markdown(chapter_text)
     return html
 
 
 @app.route('/exercises')
 def exercises():
-    template = '''
-       <html>
-       <head>
-           <meta charset="UTF-8">
-           <title>Exercises</title>
-       </head>
-       <body>
-           {{markdown}}
-       </body>
-       </html>
-           '''
     with open('./lesson1/exercises.md') as f:
         exercises_text = f.read()
-    html = render_template_string(template, markdown=exercises_text)
+        html = markdown.markdown(exercises_text)
     return html
 
 
