@@ -11,7 +11,7 @@ def favorite_book(title):
     print(f'One of my favorite books is {title}')
 
 
-favorite_book('\"This is not a title\"')
+favorite_book('\"This is not a title\"') # this \ is redundant you can remove it
 
 
 # EXERCISE 3
@@ -26,7 +26,7 @@ import random
 
 
 def guess(number):
-    if 100 > number < 1:
+    if 100 > number < 1: # bug at the id statment 
         print('Number invalid')
     else:
         computer_number = random.randint(1, 100)
